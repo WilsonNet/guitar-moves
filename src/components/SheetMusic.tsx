@@ -9,8 +9,6 @@ export interface SheetMusicProps {
   title?: string;
   /** Show guitar tablature staff below standard notation */
   showTablature?: boolean;
-  /** Enable audio playback */
-  enableAudio?: boolean;
   /** Responsive width - defaults to container width */
   width?: number;
   /** Visual theme: 'light' or 'dark' (defaults to match site) */
@@ -34,13 +32,10 @@ export function SheetMusic({
   abc,
   title,
   showTablature = true,
-  enableAudio = false,
   width = 800,
   theme = 'dark',
 }: SheetMusicProps): React.ReactElement {
   const divRef = useRef<HTMLDivElement>(null);
-  const audioRef = useRef<HTMLDivElement>(null);
-  const synthRef = useRef<abcjs.SynthObjectController | null>(null);
 
   const colors = THEME_COLORS[theme];
 
@@ -58,7 +53,7 @@ export function SheetMusic({
     }
 
     // Render the notation
-    const visualObj = abcjs.renderAbc(divRef.current, processedAbc, {
+    abcjs.renderAbc(divRef.current, processedAbc, {
       staffwidth: width - 40,
       paddingtop: 15,
       paddingbottom: 15,
@@ -84,20 +79,6 @@ export function SheetMusic({
     if (svg) {
       svg.style.color = colors.staff;
     }
-
-    // Setup audio if enabled
-    if (enableAudio && audioRef.current && visualObj[0]) {
-      synthRef.current = new abcjs.synth.SynthObjectController();
-      synthRef.current.load(visualObj[0], null, {
-        soundFontUrl: 'https://paulrosen.github.io/midi-js-soundfonts/FluidR3_GM/',
-      });
-    }
-
-    return () => {
-      if (synthRef.current) {
-        synthRef.current.stop();
-      }
-    };
   }, [abc, showTablature, width, colors.staff]);
 
   return (
@@ -130,43 +111,6 @@ export function SheetMusic({
           overflowX: 'auto',
         }}
       />
-      {enableAudio && (
-        <div ref={audioRef} style={{ marginTop: '0.5rem' }}>
-          <button
-            onClick={() => synthRef.current?.play()}
-            style={{
-              padding: '0.5rem 1rem',
-              backgroundColor: 'oklch(0.56 0.14 242)',
-              color: 'oklch(0.92 0.012 258)',
-              border: 'none',
-              borderRadius: '2px',
-              cursor: 'pointer',
-              fontFamily: "'Josefin Sans', system-ui, sans-serif",
-              fontSize: '0.875rem',
-              letterSpacing: '0.06em',
-            }}
-          >
-            ▶ Play
-          </button>
-          <button
-            onClick={() => synthRef.current?.stop()}
-            style={{
-              padding: '0.5rem 1rem',
-              marginLeft: '0.5rem',
-              backgroundColor: 'oklch(0.15 0.020 258)',
-              color: 'oklch(0.85 0.015 258)',
-              border: '1px solid oklch(0.22 0.018 258)',
-              borderRadius: '2px',
-              cursor: 'pointer',
-              fontFamily: "'Josefin Sans', system-ui, sans-serif",
-              fontSize: '0.875rem',
-              letterSpacing: '0.06em',
-            }}
-          >
-            ⏹ Stop
-          </button>
-        </div>
-      )}
     </div>
   );
 }
