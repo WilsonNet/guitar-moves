@@ -1,0 +1,211 @@
+[      61ms] [ERROR] Failed to load resource: the server responded with a status of 504 (Outdated Optimize Dep) @ http://localhost:4327/@id/astro/runtime/client/dev-toolbar/entrypoint.js:0
+[     144ms] [ERROR] Failed to load resource: the server responded with a status of 504 (Outdated Optimize Dep) @ http://localhost:4327/node_modules/.vite/deps/vexflow.js?v=19e1baa0:0
+[     145ms] [ERROR] [astro-island] Error hydrating /src/components/SheetMusic.tsx TypeError: Failed to fetch dynamically imported module: http://localhost:4327/src/components/SheetMusic.tsx @ http://localhost:4327/guitar-moves/first-position-etudes/:1829
+[     145ms] [ERROR] [astro-island] Error hydrating /src/components/SheetMusic.tsx TypeError: Failed to fetch dynamically imported module: http://localhost:4327/src/components/SheetMusic.tsx @ http://localhost:4327/guitar-moves/first-position-etudes/:1829
+[     145ms] [ERROR] [astro-island] Error hydrating /src/components/SheetMusic.tsx TypeError: Failed to fetch dynamically imported module: http://localhost:4327/src/components/SheetMusic.tsx @ http://localhost:4327/guitar-moves/first-position-etudes/:1829
+[     145ms] [ERROR] [astro-island] Error hydrating /src/components/SheetMusic.tsx TypeError: Failed to fetch dynamically imported module: http://localhost:4327/src/components/SheetMusic.tsx @ http://localhost:4327/guitar-moves/first-position-etudes/:1829
+[     145ms] [ERROR] [astro-island] Error hydrating /src/components/SheetMusic.tsx TypeError: Failed to fetch dynamically imported module: http://localhost:4327/src/components/SheetMusic.tsx @ http://localhost:4327/guitar-moves/first-position-etudes/:1829
+[     145ms] [ERROR] [astro-island] Error hydrating /src/components/SheetMusic.tsx TypeError: Failed to fetch dynamically imported module: http://localhost:4327/src/components/SheetMusic.tsx @ http://localhost:4327/guitar-moves/first-position-etudes/:1829
+[    4522ms] [ERROR] Failed to load resource: the server responded with a status of 504 (Outdated Optimize Dep) @ http://localhost:4327/@id/astro/runtime/client/dev-toolbar/entrypoint.js:0
+[    4575ms] [ERROR] Failed to load resource: the server responded with a status of 504 (Outdated Optimize Dep) @ http://localhost:4327/node_modules/.vite/deps/vexflow.js?v=19e1baa0:0
+[    4575ms] [ERROR] [astro-island] Error hydrating /src/components/SheetMusic.tsx TypeError: Failed to fetch dynamically imported module: http://localhost:4327/src/components/SheetMusic.tsx @ http://localhost:4327/guitar-moves/first-position-etudes/:1829
+[    4575ms] [ERROR] [astro-island] Error hydrating /src/components/SheetMusic.tsx TypeError: Failed to fetch dynamically imported module: http://localhost:4327/src/components/SheetMusic.tsx @ http://localhost:4327/guitar-moves/first-position-etudes/:1829
+[    4575ms] [ERROR] [astro-island] Error hydrating /src/components/SheetMusic.tsx TypeError: Failed to fetch dynamically imported module: http://localhost:4327/src/components/SheetMusic.tsx @ http://localhost:4327/guitar-moves/first-position-etudes/:1829
+[    4575ms] [ERROR] [astro-island] Error hydrating /src/components/SheetMusic.tsx TypeError: Failed to fetch dynamically imported module: http://localhost:4327/src/components/SheetMusic.tsx @ http://localhost:4327/guitar-moves/first-position-etudes/:1829
+[    4575ms] [ERROR] [astro-island] Error hydrating /src/components/SheetMusic.tsx TypeError: Failed to fetch dynamically imported module: http://localhost:4327/src/components/SheetMusic.tsx @ http://localhost:4327/guitar-moves/first-position-etudes/:1829
+[    4576ms] [ERROR] [astro-island] Error hydrating /src/components/SheetMusic.tsx TypeError: Failed to fetch dynamically imported module: http://localhost:4327/src/components/SheetMusic.tsx @ http://localhost:4327/guitar-moves/first-position-etudes/:1829
+[    7598ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:4327/@vite/client:1596
+[   14331ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=595ca2b3:20102
+[   14355ms] RuntimeError: [RuntimeError] BadArgument: Too many ticks.
+    at Voice.addTickable (http://localhost:4327/node_modules/.vite/deps/vexflow.js?v=7fd15771:11116:15)
+    at Voice.addTickables (http://localhost:4327/node_modules/.vite/deps/vexflow.js?v=7fd15771:11130:12)
+    at http://localhost:4327/src/components/SheetMusic.tsx:48:11
+    at Object.react_stack_bottom_frame (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=595ca2b3:18567:20)
+    at runWithFiberInDEV (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=595ca2b3:997:72)
+    at commitHookEffectListMount (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=595ca2b3:9411:163)
+    at commitHookPassiveMountEffects (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=595ca2b3:9465:60)
+    at commitPassiveMountOnFiber (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=595ca2b3:11040:29)
+    at recursivelyTraversePassiveMountEffects (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=595ca2b3:11010:13)
+    at commitPassiveMountOnFiber (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=595ca2b3:11066:13)
+[   14355ms] [WARNING] %s
+
+%s
+ An error occurred in the <SheetMusic> component. Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries. @ http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=595ca2b3:6965
+[   14366ms] RuntimeError: [RuntimeError] BadArgument: Too many ticks.
+    at Voice.addTickable (http://localhost:4327/node_modules/.vite/deps/vexflow.js?v=7fd15771:11116:15)
+    at Voice.addTickables (http://localhost:4327/node_modules/.vite/deps/vexflow.js?v=7fd15771:11130:12)
+    at http://localhost:4327/src/components/SheetMusic.tsx:48:11
+    at Object.react_stack_bottom_frame (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=595ca2b3:18567:20)
+    at runWithFiberInDEV (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=595ca2b3:997:72)
+    at commitHookEffectListMount (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=595ca2b3:9411:163)
+    at commitHookPassiveMountEffects (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=595ca2b3:9465:60)
+    at commitPassiveMountOnFiber (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=595ca2b3:11040:29)
+    at recursivelyTraversePassiveMountEffects (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=595ca2b3:11010:13)
+    at commitPassiveMountOnFiber (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=595ca2b3:11066:13)
+[   14366ms] [WARNING] %s
+
+%s
+ An error occurred in the <SheetMusic> component. Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries. @ http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=595ca2b3:6965
+[   14371ms] RuntimeError: [RuntimeError] BadArgument: Too many ticks.
+    at Voice.addTickable (http://localhost:4327/node_modules/.vite/deps/vexflow.js?v=7fd15771:11116:15)
+    at Voice.addTickables (http://localhost:4327/node_modules/.vite/deps/vexflow.js?v=7fd15771:11130:12)
+    at http://localhost:4327/src/components/SheetMusic.tsx:48:11
+    at Object.react_stack_bottom_frame (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=595ca2b3:18567:20)
+    at runWithFiberInDEV (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=595ca2b3:997:72)
+    at commitHookEffectListMount (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=595ca2b3:9411:163)
+    at commitHookPassiveMountEffects (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=595ca2b3:9465:60)
+    at commitPassiveMountOnFiber (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=595ca2b3:11040:29)
+    at recursivelyTraversePassiveMountEffects (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=595ca2b3:11010:13)
+    at commitPassiveMountOnFiber (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=595ca2b3:11066:13)
+[   14371ms] [WARNING] %s
+
+%s
+ An error occurred in the <SheetMusic> component. Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries. @ http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=595ca2b3:6965
+[   14377ms] RuntimeError: [RuntimeError] BadArgument: Too many ticks.
+    at Voice.addTickable (http://localhost:4327/node_modules/.vite/deps/vexflow.js?v=7fd15771:11116:15)
+    at Voice.addTickables (http://localhost:4327/node_modules/.vite/deps/vexflow.js?v=7fd15771:11130:12)
+    at http://localhost:4327/src/components/SheetMusic.tsx:48:11
+    at Object.react_stack_bottom_frame (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=595ca2b3:18567:20)
+    at runWithFiberInDEV (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=595ca2b3:997:72)
+    at commitHookEffectListMount (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=595ca2b3:9411:163)
+    at commitHookPassiveMountEffects (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=595ca2b3:9465:60)
+    at commitPassiveMountOnFiber (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=595ca2b3:11040:29)
+    at recursivelyTraversePassiveMountEffects (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=595ca2b3:11010:13)
+    at commitPassiveMountOnFiber (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=595ca2b3:11066:13)
+[   14377ms] [WARNING] %s
+
+%s
+ An error occurred in the <SheetMusic> component. Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries. @ http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=595ca2b3:6965
+[   14380ms] RuntimeError: [RuntimeError] BadArgument: Too many ticks.
+    at Voice.addTickable (http://localhost:4327/node_modules/.vite/deps/vexflow.js?v=7fd15771:11116:15)
+    at Voice.addTickables (http://localhost:4327/node_modules/.vite/deps/vexflow.js?v=7fd15771:11130:12)
+    at http://localhost:4327/src/components/SheetMusic.tsx:48:11
+    at Object.react_stack_bottom_frame (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=595ca2b3:18567:20)
+    at runWithFiberInDEV (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=595ca2b3:997:72)
+    at commitHookEffectListMount (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=595ca2b3:9411:163)
+    at commitHookPassiveMountEffects (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=595ca2b3:9465:60)
+    at commitPassiveMountOnFiber (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=595ca2b3:11040:29)
+    at recursivelyTraversePassiveMountEffects (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=595ca2b3:11010:13)
+    at commitPassiveMountOnFiber (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=595ca2b3:11066:13)
+[   14380ms] [WARNING] %s
+
+%s
+ An error occurred in the <SheetMusic> component. Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries. @ http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=595ca2b3:6965
+[   14386ms] RuntimeError: [RuntimeError] BadArguments: The provided duration is not valid: d
+    at _Tables.sanitizeDuration (http://localhost:4327/node_modules/.vite/deps/vexflow.js?v=7fd15771:4981:13)
+    at _Tables.durationToTicks (http://localhost:4327/node_modules/.vite/deps/vexflow.js?v=7fd15771:4992:24)
+    at _Note.parseNoteStruct (http://localhost:4327/node_modules/.vite/deps/vexflow.js?v=7fd15771:6519:24)
+    at new _Note (http://localhost:4327/node_modules/.vite/deps/vexflow.js?v=7fd15771:6547:36)
+    at new StemmableNote (http://localhost:4327/node_modules/.vite/deps/vexflow.js?v=7fd15771:9851:5)
+    at new _StaveNote (http://localhost:4327/node_modules/.vite/deps/vexflow.js?v=7fd15771:10233:5)
+    at http://localhost:4327/src/components/SheetMusic.tsx:42:14
+    at Array.map (<anonymous>)
+    at http://localhost:4327/src/components/SheetMusic.tsx:40:30
+    at Object.react_stack_bottom_frame (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=595ca2b3:18567:20)
+[   14385ms] [WARNING] %s
+
+%s
+ An error occurred in the <SheetMusic> component. Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries. @ http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=595ca2b3:6965
+[   14620ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:20102
+[   14650ms] RuntimeError: [RuntimeError] BadArgument: Too many ticks.
+    at Voice.addTickable (http://localhost:4327/node_modules/.vite/deps/vexflow.js?v=38e952cc:11116:15)
+    at Voice.addTickables (http://localhost:4327/node_modules/.vite/deps/vexflow.js?v=38e952cc:11130:12)
+    at http://localhost:4327/src/components/SheetMusic.tsx:48:11
+    at Object.react_stack_bottom_frame (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:18567:20)
+    at runWithFiberInDEV (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:997:72)
+    at commitHookEffectListMount (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:9411:163)
+    at commitHookPassiveMountEffects (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:9465:60)
+    at commitPassiveMountOnFiber (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:11040:29)
+    at recursivelyTraversePassiveMountEffects (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:11010:13)
+    at commitPassiveMountOnFiber (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:11066:13)
+[   14650ms] [WARNING] %s
+
+%s
+ An error occurred in the <SheetMusic> component. Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries. @ http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:6965
+[   14657ms] RuntimeError: [RuntimeError] BadArgument: Too many ticks.
+    at Voice.addTickable (http://localhost:4327/node_modules/.vite/deps/vexflow.js?v=38e952cc:11116:15)
+    at Voice.addTickables (http://localhost:4327/node_modules/.vite/deps/vexflow.js?v=38e952cc:11130:12)
+    at http://localhost:4327/src/components/SheetMusic.tsx:48:11
+    at Object.react_stack_bottom_frame (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:18567:20)
+    at runWithFiberInDEV (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:997:72)
+    at commitHookEffectListMount (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:9411:163)
+    at commitHookPassiveMountEffects (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:9465:60)
+    at commitPassiveMountOnFiber (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:11040:29)
+    at recursivelyTraversePassiveMountEffects (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:11010:13)
+    at commitPassiveMountOnFiber (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:11066:13)
+[   14656ms] [WARNING] %s
+
+%s
+ An error occurred in the <SheetMusic> component. Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries. @ http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:6965
+[   14661ms] RuntimeError: [RuntimeError] BadArgument: Too many ticks.
+    at Voice.addTickable (http://localhost:4327/node_modules/.vite/deps/vexflow.js?v=38e952cc:11116:15)
+    at Voice.addTickables (http://localhost:4327/node_modules/.vite/deps/vexflow.js?v=38e952cc:11130:12)
+    at http://localhost:4327/src/components/SheetMusic.tsx:48:11
+    at Object.react_stack_bottom_frame (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:18567:20)
+    at runWithFiberInDEV (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:997:72)
+    at commitHookEffectListMount (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:9411:163)
+    at commitHookPassiveMountEffects (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:9465:60)
+    at commitPassiveMountOnFiber (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:11040:29)
+    at recursivelyTraversePassiveMountEffects (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:11010:13)
+    at commitPassiveMountOnFiber (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:11066:13)
+[   14661ms] [WARNING] %s
+
+%s
+ An error occurred in the <SheetMusic> component. Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries. @ http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:6965
+[   14665ms] RuntimeError: [RuntimeError] BadArgument: Too many ticks.
+    at Voice.addTickable (http://localhost:4327/node_modules/.vite/deps/vexflow.js?v=38e952cc:11116:15)
+    at Voice.addTickables (http://localhost:4327/node_modules/.vite/deps/vexflow.js?v=38e952cc:11130:12)
+    at http://localhost:4327/src/components/SheetMusic.tsx:48:11
+    at Object.react_stack_bottom_frame (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:18567:20)
+    at runWithFiberInDEV (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:997:72)
+    at commitHookEffectListMount (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:9411:163)
+    at commitHookPassiveMountEffects (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:9465:60)
+    at commitPassiveMountOnFiber (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:11040:29)
+    at recursivelyTraversePassiveMountEffects (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:11010:13)
+    at commitPassiveMountOnFiber (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:11066:13)
+[   14665ms] [WARNING] %s
+
+%s
+ An error occurred in the <SheetMusic> component. Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries. @ http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:6965
+[   14673ms] RuntimeError: [RuntimeError] BadArguments: The provided duration is not valid: d
+    at _Tables.sanitizeDuration (http://localhost:4327/node_modules/.vite/deps/vexflow.js?v=38e952cc:4981:13)
+    at _Tables.durationToTicks (http://localhost:4327/node_modules/.vite/deps/vexflow.js?v=38e952cc:4992:24)
+    at _Note.parseNoteStruct (http://localhost:4327/node_modules/.vite/deps/vexflow.js?v=38e952cc:6519:24)
+    at new _Note (http://localhost:4327/node_modules/.vite/deps/vexflow.js?v=38e952cc:6547:36)
+    at new StemmableNote (http://localhost:4327/node_modules/.vite/deps/vexflow.js?v=38e952cc:9851:5)
+    at new _StaveNote (http://localhost:4327/node_modules/.vite/deps/vexflow.js?v=38e952cc:10233:5)
+    at http://localhost:4327/src/components/SheetMusic.tsx:42:14
+    at Array.map (<anonymous>)
+    at http://localhost:4327/src/components/SheetMusic.tsx:40:30
+    at Object.react_stack_bottom_frame (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:18567:20)
+[   14672ms] [WARNING] %s
+
+%s
+ An error occurred in the <SheetMusic> component. Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries. @ http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:6965
+[   14675ms] RuntimeError: [RuntimeError] BadArgument: Too many ticks.
+    at Voice.addTickable (http://localhost:4327/node_modules/.vite/deps/vexflow.js?v=38e952cc:11116:15)
+    at Voice.addTickables (http://localhost:4327/node_modules/.vite/deps/vexflow.js?v=38e952cc:11130:12)
+    at http://localhost:4327/src/components/SheetMusic.tsx:48:11
+    at Object.react_stack_bottom_frame (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:18567:20)
+    at runWithFiberInDEV (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:997:72)
+    at commitHookEffectListMount (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:9411:163)
+    at commitHookPassiveMountEffects (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:9465:60)
+    at commitPassiveMountOnFiber (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:11040:29)
+    at recursivelyTraversePassiveMountEffects (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:11010:13)
+    at commitPassiveMountOnFiber (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:11066:13)
+[   14674ms] [WARNING] %s
+
+%s
+ An error occurred in the <SheetMusic> component. Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries. @ http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:6965

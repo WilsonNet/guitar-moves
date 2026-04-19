@@ -1,12 +1,13 @@
-import { useEffect, useRef } from 'react';
-import abcjs from 'abcjs';
-import 'abcjs/abcjs-audio.css';
+import { useEffect, useRef, useState } from 'react';
+import { Factory, VexFlow } from 'vexflow';
 
 export interface SheetMusicProps {
-  /** ABC notation string to render */
-  abc: string;
-  /** Optional title override */
+  /** EasyScore format string, e.g., "C#5/q, B4, A4, G#4" */
+  notes: string;
+  /** Optional title */
   title?: string;
+  /** Time signature */
+  timeSignature?: string;
   /** Responsive width - defaults to container width */
   width?: number;
   /** Visual theme: 'light' or 'dark' (defaults to match site) */
@@ -27,13 +28,14 @@ const THEME_COLORS = {
 };
 
 export function SheetMusic({
-  abc,
+  notes,
   title,
-  width = 800,
+  timeSignature = '4/4',
+  width = 600,
   theme = 'dark',
 }: SheetMusicProps): React.ReactElement {
   const divRef = useRef<HTMLDivElement>(null);
-
+  const [isReady, setIsReady] = useState(false);
   const colors = THEME_COLORS[theme];
 
   useEffect(() => {
@@ -42,25 +44,61 @@ export function SheetMusic({
     // Clear previous render
     divRef.current.innerHTML = '';
 
-    // Render the notation
-    abcjs.renderAbc(divRef.current, abc, {
-      staffwidth: width - 40,
-      paddingtop: 15,
-      paddingbottom: 15,
-      paddingleft: 15,
-      paddingright: 15,
-      responsive: 'resize',
-      scale: 1.2,
-      add_classes: true,
-      jazzchords: true,
+    // Wait for fonts to be ready
+    document.fonts.ready.then(() => {
+      setIsReady(true);
     });
+  }, []);
 
-    // Apply theme colors to SVG
-    const svg = divRef.current.querySelector('svg');
-    if (svg) {
-      svg.style.color = colors.staff;
+  useEffect(() => {
+    if (!isReady || !divRef.current) return;
+
+    // Clear previous render
+    divRef.current.innerHTML = '';
+
+    try {
+      // Set fonts
+      VexFlow.setFonts('Bravura', 'Academico');
+
+      // Create factory
+      const vf = new Factory({
+        renderer: {
+          elementId: divRef.current,
+          width,
+          height: 200,
+        },
+      });
+
+      const score = vf.EasyScore();
+      const system = vf.System();
+
+      // Add stave with notes
+      system
+        .addStave({
+          voices: [score.voice(score.notes(notes, { stem: 'up' }))],
+        })
+        .addClef('treble')
+        .addTimeSignature(timeSignature);
+
+      // Draw everything
+      vf.draw();
+
+      // Apply dark theme colors to SVG if needed
+      if (theme === 'dark' && divRef.current) {
+        const svg = divRef.current.querySelector('svg');
+        if (svg) {
+          svg.style.color = colors.note;
+          const elements = svg.querySelectorAll('path, text, line');
+          elements.forEach((el) => {
+            (el as SVGElement).style.stroke = colors.staff;
+            (el as SVGElement).style.fill = colors.note;
+          });
+        }
+      }
+    } catch (error) {
+      console.error('VexFlow rendering error:', error);
     }
-  }, [abc, width, colors.staff]);
+  }, [notes, timeSignature, width, theme, colors.note, colors.staff, isReady]);
 
   return (
     <div
@@ -90,8 +128,18 @@ export function SheetMusic({
           borderRadius: '4px',
           border: '1px solid oklch(0.22 0.018 258)',
           overflowX: 'auto',
+          minHeight: '200px',
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
         }}
-      />
+      >
+        {!isReady && (
+          <span style={{ color: colors.note, fontSize: '0.875rem' }}>
+            Loading notation...
+          </span>
+        )}
+      </div>
     </div>
   );
 }

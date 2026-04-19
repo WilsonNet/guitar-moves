@@ -1,0 +1,28 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: "#_top"
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e5]:
+        - link "Japonês com Anki e Imersão" [ref=e7] [cursor=pointer]:
+          - /url: /
+          - generic [ref=e8]: Japonês com Anki e Imersão
+        - button "Search" [ref=e11] [cursor=pointer]:
+          - img [ref=e12]
+    - main [ref=e17]:
+      - generic [ref=e22]:
+        - heading "404" [level=1] [ref=e23]
+        - generic [ref=e24]: Page not found. Check the URL or try using the search bar.
+  - generic [ref=e28]:
+    - button "Menu" [ref=e29]:
+      - img [ref=e31]
+      - generic: Menu
+    - button "Inspect" [ref=e35]:
+      - img [ref=e37]
+      - generic: Inspect
+    - button "Audit" [ref=e39]:
+      - img [ref=e41]
+      - generic: Audit
+    - button "Settings" [ref=e44]:
+      - img [ref=e46]
+      - generic: Settings

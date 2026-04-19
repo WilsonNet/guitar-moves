@@ -1,0 +1,4 @@
+[     418ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=166d803f:20102
+[   21693ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:4327/@vite/client:1596
+[   27280ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=ca37eb07:20102
+[   27517ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=166d803f:20102

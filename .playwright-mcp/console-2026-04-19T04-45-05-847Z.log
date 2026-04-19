@@ -1,0 +1,210 @@
+[    1835ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=166d803f:20102
+[    1886ms] [LOG] Debug msg: clef=tablature @ http://localhost:4327/node_modules/.vite/deps/abcjs.js?v=166d803f:18716
+[    1891ms] [LOG] Debug msg: clef=tablature @ http://localhost:4327/node_modules/.vite/deps/abcjs.js?v=166d803f:18716
+[    1895ms] [LOG] Debug msg: clef=tablature @ http://localhost:4327/node_modules/.vite/deps/abcjs.js?v=166d803f:18716
+[    1899ms] [LOG] Debug msg: clef=tablature @ http://localhost:4327/node_modules/.vite/deps/abcjs.js?v=166d803f:18716
+[    1905ms] TypeError: abcjs.synth.SynthObjectController is not a constructor
+    at http://localhost:4327/src/components/SheetMusic.tsx:64:26
+    at Object.react_stack_bottom_frame (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=166d803f:18567:20)
+    at runWithFiberInDEV (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=166d803f:997:72)
+    at commitHookEffectListMount (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=166d803f:9411:163)
+    at commitHookPassiveMountEffects (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=166d803f:9465:60)
+    at commitPassiveMountOnFiber (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=166d803f:11040:29)
+    at recursivelyTraversePassiveMountEffects (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=166d803f:11010:13)
+    at commitPassiveMountOnFiber (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=166d803f:11066:13)
+    at flushPassiveEffects (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=166d803f:13150:11)
+    at flushPendingEffects (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=166d803f:13088:16)
+[    1905ms] [WARNING] %s
+
+%s
+ An error occurred in the <SheetMusic> component. Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries. @ http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=166d803f:6965
+[    1913ms] [LOG] Debug msg: clef=tablature @ http://localhost:4327/node_modules/.vite/deps/abcjs.js?v=166d803f:18716
+[    1916ms] [LOG] Debug msg: clef=tablature @ http://localhost:4327/node_modules/.vite/deps/abcjs.js?v=166d803f:18716
+[    1919ms] [LOG] Debug msg: clef=tablature @ http://localhost:4327/node_modules/.vite/deps/abcjs.js?v=166d803f:18716
+[    1934ms] [LOG] Debug msg: clef=tablature @ http://localhost:4327/node_modules/.vite/deps/abcjs.js?v=166d803f:18716
+[    1937ms] [LOG] Debug msg: clef=tablature @ http://localhost:4327/node_modules/.vite/deps/abcjs.js?v=166d803f:18716
+[    1951ms] [LOG] Debug msg: clef=tablature @ http://localhost:4327/node_modules/.vite/deps/abcjs.js?v=166d803f:18716
+[    1954ms] [LOG] Debug msg: clef=tablature @ http://localhost:4327/node_modules/.vite/deps/abcjs.js?v=166d803f:18716
+[    1969ms] [LOG] Debug msg: clef=tablature @ http://localhost:4327/node_modules/.vite/deps/abcjs.js?v=166d803f:18716
+[    1981ms] [LOG] Debug msg: clef=tablature @ http://localhost:4327/node_modules/.vite/deps/abcjs.js?v=166d803f:18716
+[   13447ms] [LOG] Debug msg: clef=tablature @ http://localhost:4327/node_modules/.vite/deps/abcjs.js?v=166d803f:18716
+[   13452ms] [LOG] Debug msg: clef=tablature @ http://localhost:4327/node_modules/.vite/deps/abcjs.js?v=166d803f:18716
+[   13455ms] [LOG] Debug msg: clef=tablature @ http://localhost:4327/node_modules/.vite/deps/abcjs.js?v=166d803f:18716
+[   13458ms] [LOG] Debug msg: clef=tablature @ http://localhost:4327/node_modules/.vite/deps/abcjs.js?v=166d803f:18716
+[   13462ms] TypeError: abcjs.synth.SynthObjectController is not a constructor
+    at http://localhost:4327/src/components/SheetMusic.tsx?t=1776573919004:64:26
+    at Object.react_stack_bottom_frame (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=166d803f:18567:20)
+    at runWithFiberInDEV (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=166d803f:997:72)
+    at commitHookEffectListMount (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=166d803f:9411:163)
+    at commitHookPassiveMountEffects (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=166d803f:9465:60)
+    at commitPassiveMountOnFiber (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=166d803f:11040:29)
+    at recursivelyTraversePassiveMountEffects (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=166d803f:11010:13)
+    at commitPassiveMountOnFiber (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=166d803f:11066:13)
+    at flushPassiveEffects (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=166d803f:13150:11)
+    at flushPendingEffects (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=166d803f:13088:16)
+[   13462ms] [WARNING] %s
+
+%s
+ An error occurred in the <SheetMusic> component. Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries. @ http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=166d803f:6965
+[   13469ms] [LOG] Debug msg: clef=tablature @ http://localhost:4327/node_modules/.vite/deps/abcjs.js?v=166d803f:18716
+[   13474ms] [LOG] Debug msg: clef=tablature @ http://localhost:4327/node_modules/.vite/deps/abcjs.js?v=166d803f:18716
+[   13477ms] [LOG] Debug msg: clef=tablature @ http://localhost:4327/node_modules/.vite/deps/abcjs.js?v=166d803f:18716
+[   13484ms] [LOG] Debug msg: clef=tablature @ http://localhost:4327/node_modules/.vite/deps/abcjs.js?v=166d803f:18716
+[   13488ms] [LOG] Debug msg: clef=tablature @ http://localhost:4327/node_modules/.vite/deps/abcjs.js?v=166d803f:18716
+[   13496ms] [LOG] Debug msg: clef=tablature @ http://localhost:4327/node_modules/.vite/deps/abcjs.js?v=166d803f:18716
+[   13500ms] [LOG] Debug msg: clef=tablature @ http://localhost:4327/node_modules/.vite/deps/abcjs.js?v=166d803f:18716
+[   13506ms] [LOG] Debug msg: clef=tablature @ http://localhost:4327/node_modules/.vite/deps/abcjs.js?v=166d803f:18716
+[   13512ms] [LOG] Debug msg: clef=tablature @ http://localhost:4327/node_modules/.vite/deps/abcjs.js?v=166d803f:18716
+[   22358ms] ReferenceError: enableAudio is not defined
+    at SheetMusic (http://localhost:4327/src/components/SheetMusic.tsx?t=1776573928159:111:9)
+    at Object.react_stack_bottom_frame (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=166d803f:18509:20)
+    at renderWithHooks (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=166d803f:5654:24)
+    at updateFunctionComponent (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=166d803f:7475:21)
+    at beginWork (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=166d803f:8525:20)
+    at runWithFiberInDEV (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=166d803f:997:72)
+    at performUnitOfWork (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=166d803f:12561:98)
+    at workLoopSync (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=166d803f:12424:43)
+    at renderRootSync (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=166d803f:12408:13)
+    at performWorkOnRoot (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=166d803f:11827:37)
+[   22357ms] [WARNING] %s
+
+%s
+ An error occurred in the <SheetMusic> component. Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries. @ http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=166d803f:6965
+[   22360ms] ReferenceError: enableAudio is not defined
+    at SheetMusic (http://localhost:4327/src/components/SheetMusic.tsx?t=1776573928159:111:9)
+    at Object.react_stack_bottom_frame (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=166d803f:18509:20)
+    at renderWithHooks (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=166d803f:5654:24)
+    at updateFunctionComponent (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=166d803f:7475:21)
+    at beginWork (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=166d803f:8525:20)
+    at runWithFiberInDEV (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=166d803f:997:72)
+    at performUnitOfWork (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=166d803f:12561:98)
+    at workLoopSync (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=166d803f:12424:43)
+    at renderRootSync (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=166d803f:12408:13)
+    at performWorkOnRoot (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=166d803f:11827:37)
+[   22359ms] [WARNING] %s
+
+%s
+ An error occurred in the <SheetMusic> component. Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries. @ http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=166d803f:6965
+[   22361ms] ReferenceError: enableAudio is not defined
+    at SheetMusic (http://localhost:4327/src/components/SheetMusic.tsx?t=1776573928159:111:9)
+    at Object.react_stack_bottom_frame (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=166d803f:18509:20)
+    at renderWithHooks (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=166d803f:5654:24)
+    at updateFunctionComponent (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=166d803f:7475:21)
+    at beginWork (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=166d803f:8525:20)
+    at runWithFiberInDEV (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=166d803f:997:72)
+    at performUnitOfWork (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=166d803f:12561:98)
+    at workLoopSync (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=166d803f:12424:43)
+    at renderRootSync (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=166d803f:12408:13)
+    at performWorkOnRoot (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=166d803f:11827:37)
+[   22360ms] [WARNING] %s
+
+%s
+ An error occurred in the <SheetMusic> component. Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries. @ http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=166d803f:6965
+[   22362ms] ReferenceError: enableAudio is not defined
+    at SheetMusic (http://localhost:4327/src/components/SheetMusic.tsx?t=1776573928159:111:9)
+    at Object.react_stack_bottom_frame (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=166d803f:18509:20)
+    at renderWithHooks (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=166d803f:5654:24)
+    at updateFunctionComponent (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=166d803f:7475:21)
+    at beginWork (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=166d803f:8525:20)
+    at runWithFiberInDEV (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=166d803f:997:72)
+    at performUnitOfWork (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=166d803f:12561:98)
+    at workLoopSync (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=166d803f:12424:43)
+    at renderRootSync (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=166d803f:12408:13)
+    at performWorkOnRoot (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=166d803f:11827:37)
+[   22361ms] [WARNING] %s
+
+%s
+ An error occurred in the <SheetMusic> component. Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries. @ http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=166d803f:6965
+[   22364ms] ReferenceError: enableAudio is not defined
+    at SheetMusic (http://localhost:4327/src/components/SheetMusic.tsx?t=1776573928159:111:9)
+    at Object.react_stack_bottom_frame (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=166d803f:18509:20)
+    at renderWithHooks (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=166d803f:5654:24)
+    at updateFunctionComponent (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=166d803f:7475:21)
+    at beginWork (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=166d803f:8525:20)
+    at runWithFiberInDEV (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=166d803f:997:72)
+    at performUnitOfWork (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=166d803f:12561:98)
+    at workLoopSync (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=166d803f:12424:43)
+    at renderRootSync (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=166d803f:12408:13)
+    at performWorkOnRoot (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=166d803f:11827:37)
+[   22363ms] [WARNING] %s
+
+%s
+ An error occurred in the <SheetMusic> component. Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries. @ http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=166d803f:6965
+[   22365ms] ReferenceError: enableAudio is not defined
+    at SheetMusic (http://localhost:4327/src/components/SheetMusic.tsx?t=1776573928159:111:9)
+    at Object.react_stack_bottom_frame (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=166d803f:18509:20)
+    at renderWithHooks (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=166d803f:5654:24)
+    at updateFunctionComponent (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=166d803f:7475:21)
+    at beginWork (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=166d803f:8525:20)
+    at runWithFiberInDEV (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=166d803f:997:72)
+    at performUnitOfWork (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=166d803f:12561:98)
+    at workLoopSync (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=166d803f:12424:43)
+    at renderRootSync (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=166d803f:12408:13)
+    at performWorkOnRoot (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=166d803f:11827:37)
+[   22365ms] [WARNING] %s
+
+%s
+ An error occurred in the <SheetMusic> component. Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries. @ http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=166d803f:6965
+[   27173ms] [LOG] Debug msg: clef=tablature @ http://localhost:4327/node_modules/.vite/deps/abcjs.js?v=166d803f:18716
+[   27179ms] [LOG] Debug msg: clef=tablature @ http://localhost:4327/node_modules/.vite/deps/abcjs.js?v=166d803f:18716
+[   27184ms] [LOG] Debug msg: clef=tablature @ http://localhost:4327/node_modules/.vite/deps/abcjs.js?v=166d803f:18716
+[   27189ms] [LOG] Debug msg: clef=tablature @ http://localhost:4327/node_modules/.vite/deps/abcjs.js?v=166d803f:18716
+[   27197ms] [LOG] Debug msg: clef=tablature @ http://localhost:4327/node_modules/.vite/deps/abcjs.js?v=166d803f:18716
+[   27200ms] [LOG] Debug msg: clef=tablature @ http://localhost:4327/node_modules/.vite/deps/abcjs.js?v=166d803f:18716
+[   27204ms] [LOG] Debug msg: clef=tablature @ http://localhost:4327/node_modules/.vite/deps/abcjs.js?v=166d803f:18716
+[   27210ms] [LOG] Debug msg: clef=tablature @ http://localhost:4327/node_modules/.vite/deps/abcjs.js?v=166d803f:18716
+[   27214ms] [LOG] Debug msg: clef=tablature @ http://localhost:4327/node_modules/.vite/deps/abcjs.js?v=166d803f:18716
+[   27222ms] [LOG] Debug msg: clef=tablature @ http://localhost:4327/node_modules/.vite/deps/abcjs.js?v=166d803f:18716
+[   27227ms] [LOG] Debug msg: clef=tablature @ http://localhost:4327/node_modules/.vite/deps/abcjs.js?v=166d803f:18716
+[   27235ms] [LOG] Debug msg: clef=tablature @ http://localhost:4327/node_modules/.vite/deps/abcjs.js?v=166d803f:18716
+[   27242ms] [LOG] Debug msg: clef=tablature @ http://localhost:4327/node_modules/.vite/deps/abcjs.js?v=166d803f:18716
+[   31566ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=166d803f:20102
+[   31595ms] [LOG] Debug msg: clef=tablature @ http://localhost:4327/node_modules/.vite/deps/abcjs.js?v=166d803f:18716
+[   31598ms] [LOG] Debug msg: clef=tablature @ http://localhost:4327/node_modules/.vite/deps/abcjs.js?v=166d803f:18716
+[   31600ms] [LOG] Debug msg: clef=tablature @ http://localhost:4327/node_modules/.vite/deps/abcjs.js?v=166d803f:18716
+[   31615ms] [LOG] Debug msg: clef=tablature @ http://localhost:4327/node_modules/.vite/deps/abcjs.js?v=166d803f:18716
+[   31618ms] [LOG] Debug msg: clef=tablature @ http://localhost:4327/node_modules/.vite/deps/abcjs.js?v=166d803f:18716
+[   31635ms] [LOG] Debug msg: clef=tablature @ http://localhost:4327/node_modules/.vite/deps/abcjs.js?v=166d803f:18716
+[   31638ms] [LOG] Debug msg: clef=tablature @ http://localhost:4327/node_modules/.vite/deps/abcjs.js?v=166d803f:18716
+[   31642ms] [LOG] Debug msg: clef=tablature @ http://localhost:4327/node_modules/.vite/deps/abcjs.js?v=166d803f:18716
+[   31645ms] [LOG] Debug msg: clef=tablature @ http://localhost:4327/node_modules/.vite/deps/abcjs.js?v=166d803f:18716
+[   31663ms] [LOG] Debug msg: clef=tablature @ http://localhost:4327/node_modules/.vite/deps/abcjs.js?v=166d803f:18716
+[   31675ms] [LOG] Debug msg: clef=tablature @ http://localhost:4327/node_modules/.vite/deps/abcjs.js?v=166d803f:18716
+[   31681ms] [LOG] Debug msg: clef=tablature @ http://localhost:4327/node_modules/.vite/deps/abcjs.js?v=166d803f:18716
+[   31683ms] [LOG] Debug msg: clef=tablature @ http://localhost:4327/node_modules/.vite/deps/abcjs.js?v=166d803f:18716
+[   31957ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=166d803f:20102
+[   31972ms] [LOG] Debug msg: clef=tablature @ http://localhost:4327/node_modules/.vite/deps/abcjs.js?v=166d803f:18716
+[   31976ms] [LOG] Debug msg: clef=tablature @ http://localhost:4327/node_modules/.vite/deps/abcjs.js?v=166d803f:18716
+[   31979ms] [LOG] Debug msg: clef=tablature @ http://localhost:4327/node_modules/.vite/deps/abcjs.js?v=166d803f:18716
+[   31982ms] [LOG] Debug msg: clef=tablature @ http://localhost:4327/node_modules/.vite/deps/abcjs.js?v=166d803f:18716
+[   31998ms] [LOG] Debug msg: clef=tablature @ http://localhost:4327/node_modules/.vite/deps/abcjs.js?v=166d803f:18716
+[   32001ms] [LOG] Debug msg: clef=tablature @ http://localhost:4327/node_modules/.vite/deps/abcjs.js?v=166d803f:18716
+[   32011ms] [LOG] Debug msg: clef=tablature @ http://localhost:4327/node_modules/.vite/deps/abcjs.js?v=166d803f:18716
+[   32022ms] [LOG] Debug msg: clef=tablature @ http://localhost:4327/node_modules/.vite/deps/abcjs.js?v=166d803f:18716
+[   32035ms] [LOG] Debug msg: clef=tablature @ http://localhost:4327/node_modules/.vite/deps/abcjs.js?v=166d803f:18716
+[   32038ms] [LOG] Debug msg: clef=tablature @ http://localhost:4327/node_modules/.vite/deps/abcjs.js?v=166d803f:18716
+[   32044ms] [LOG] Debug msg: clef=tablature @ http://localhost:4327/node_modules/.vite/deps/abcjs.js?v=166d803f:18716
+[   32046ms] [LOG] Debug msg: clef=tablature @ http://localhost:4327/node_modules/.vite/deps/abcjs.js?v=166d803f:18716
+[   32048ms] [LOG] Debug msg: clef=tablature @ http://localhost:4327/node_modules/.vite/deps/abcjs.js?v=166d803f:18716
+[   35881ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=166d803f:20102
+[   35895ms] [LOG] Debug msg: clef=tablature @ http://localhost:4327/node_modules/.vite/deps/abcjs.js?v=166d803f:18716
+[   35898ms] [LOG] Debug msg: clef=tablature @ http://localhost:4327/node_modules/.vite/deps/abcjs.js?v=166d803f:18716
+[   35900ms] [LOG] Debug msg: clef=tablature @ http://localhost:4327/node_modules/.vite/deps/abcjs.js?v=166d803f:18716
+[   35912ms] [LOG] Debug msg: clef=tablature @ http://localhost:4327/node_modules/.vite/deps/abcjs.js?v=166d803f:18716
+[   35915ms] [LOG] Debug msg: clef=tablature @ http://localhost:4327/node_modules/.vite/deps/abcjs.js?v=166d803f:18716
+[   35927ms] [LOG] Debug msg: clef=tablature @ http://localhost:4327/node_modules/.vite/deps/abcjs.js?v=166d803f:18716
+[   35943ms] [LOG] Debug msg: clef=tablature @ http://localhost:4327/node_modules/.vite/deps/abcjs.js?v=166d803f:18716
+[   35949ms] [LOG] Debug msg: clef=tablature @ http://localhost:4327/node_modules/.vite/deps/abcjs.js?v=166d803f:18716
+[   35952ms] [LOG] Debug msg: clef=tablature @ http://localhost:4327/node_modules/.vite/deps/abcjs.js?v=166d803f:18716
+[   35955ms] [LOG] Debug msg: clef=tablature @ http://localhost:4327/node_modules/.vite/deps/abcjs.js?v=166d803f:18716
+[   35975ms] [LOG] Debug msg: clef=tablature @ http://localhost:4327/node_modules/.vite/deps/abcjs.js?v=166d803f:18716
+[   35991ms] [LOG] Debug msg: clef=tablature @ http://localhost:4327/node_modules/.vite/deps/abcjs.js?v=166d803f:18716
+[   35994ms] [LOG] Debug msg: clef=tablature @ http://localhost:4327/node_modules/.vite/deps/abcjs.js?v=166d803f:18716

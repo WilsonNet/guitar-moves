@@ -1,0 +1,190 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: "#_top"
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e5]:
+        - link "Guitar Moves" [ref=e7] [cursor=pointer]:
+          - /url: /guitar-moves/
+          - generic [ref=e8]: Guitar Moves
+        - button "Search" [ref=e11] [cursor=pointer]:
+          - img [ref=e12]
+          - generic [ref=e14]: Search
+          - generic [ref=e15]:
+            - generic [ref=e16]: Ctrl
+            - generic [ref=e17]: K
+        - generic [ref=e21]:
+          - generic [ref=e22]: Select theme
+          - img
+          - combobox "Select theme" [ref=e23] [cursor=pointer]:
+            - option "Dark" [selected]
+            - option "Light"
+            - option "Auto"
+          - img
+    - navigation "Main":
+      - list [ref=e27]:
+        - listitem [ref=e28]:
+          - group [ref=e29]:
+            - generic "Theory" [ref=e30] [cursor=pointer]:
+              - generic [ref=e31]: Theory
+              - img [ref=e32]
+            - list [ref=e34]:
+              - listitem [ref=e35]:
+                - link "Intervals" [ref=e36] [cursor=pointer]:
+                  - /url: /guitar-moves/intervals/
+        - listitem [ref=e37]:
+          - group [ref=e38]:
+            - generic "Course" [ref=e39] [cursor=pointer]:
+              - generic [ref=e40]: Course
+              - img [ref=e41]
+            - list [ref=e43]:
+              - listitem [ref=e44]:
+                - link "First Position Etudes" [ref=e45] [cursor=pointer]:
+                  - /url: /guitar-moves/first-position-etudes/
+    - generic [ref=e47]:
+      - complementary:
+        - navigation "On this page Overview" [ref=e48]:
+          - group [ref=e49]:
+            - generic "On this page Overview" [ref=e50]:
+              - generic [ref=e51] [cursor=pointer]:
+                - text: On this page
+                - img [ref=e52]
+              - generic [ref=e54]: Overview
+      - main [ref=e56]:
+        - heading "First Position Etudes" [level=1] [ref=e59]
+        - generic [ref=e61]:
+          - generic [ref=e62]:
+            - generic [ref=e63]:
+              - heading "Introduction" [level=2] [ref=e64]
+              - link "Section titled “Introduction”" [ref=e65] [cursor=pointer]:
+                - /url: "#introduction"
+                - img [ref=e67]
+                - generic [ref=e69]: Section titled “Introduction”
+            - paragraph [ref=e70]:
+              - strong [ref=e71]: First position
+              - text: on the guitar encompasses all the notes available in the first four frets, plus the open strings. This is where every guitarist begins their journey.
+            - paragraph [ref=e72]: "In this section, you’ll find progressive etudes to build your foundation:"
+            - list [ref=e73]:
+              - listitem [ref=e74]: Open string exercises for right-hand technique
+              - listitem [ref=e75]: Natural notes in first position
+              - listitem [ref=e76]: Simple melodies
+              - listitem [ref=e77]: Basic scale patterns
+            - separator [ref=e78]
+            - generic [ref=e79]:
+              - 'heading "Exercise 1: Open String Alternation" [level=2] [ref=e80]'
+              - 'link "Section titled “Exercise 1: Open String Alternation”" [ref=e81] [cursor=pointer]':
+                - /url: "#exercise-1-open-string-alternation"
+                - img [ref=e83]
+                - generic [ref=e85]: "Section titled “Exercise 1: Open String Alternation”"
+            - paragraph [ref=e86]: Start with this simple right-hand exercise alternating between bass and treble strings. Use rest stroke (apoyando) for a full, clear tone.
+            - heading "Open String Warm-up" [level=3] [ref=e89]
+            - paragraph [ref=e91]:
+              - strong [ref=e92]: "Focus:"
+              - text: Even tone across all strings, consistent timing.
+            - separator [ref=e93]
+            - generic [ref=e94]:
+              - 'heading "Exercise 2: First Position C Major Scale" [level=2] [ref=e95]'
+              - 'link "Section titled “Exercise 2: First Position C Major Scale”" [ref=e96] [cursor=pointer]':
+                - /url: "#exercise-2-first-position-c-major-scale"
+                - img [ref=e98]
+                - generic [ref=e100]: "Section titled “Exercise 2: First Position C Major Scale”"
+            - paragraph [ref=e101]: Learn the C major scale in first position. Notice that all notes are natural (no sharps or flats).
+            - heading "C Major Scale - Ascending & Descending" [level=3] [ref=e104]
+            - paragraph [ref=e106]:
+              - strong [ref=e107]: "Finger Pattern:"
+              - text: "0-2-3-3-2-3-0-1 (descending: 1-3-2-3-3-2-0 on lower strings)"
+            - separator [ref=e108]
+            - generic [ref=e109]:
+              - 'heading "Exercise 3: Simple Melody - Aura Lee" [level=2] [ref=e110]'
+              - 'link "Section titled “Exercise 3: Simple Melody - Aura Lee”" [ref=e111] [cursor=pointer]':
+                - /url: "#exercise-3-simple-melody---aura-lee"
+                - img [ref=e113]
+                - generic [ref=e115]: "Section titled “Exercise 3: Simple Melody - Aura Lee”"
+            - paragraph [ref=e116]: A classic folk melody using only the first three strings in first position.
+            - heading "Aura Lee (Love Me Tender)" [level=3] [ref=e119]
+            - separator [ref=e121]
+            - generic [ref=e122]:
+              - 'heading "Exercise 4: Chromatic Finger Exercise" [level=2] [ref=e123]'
+              - 'link "Section titled “Exercise 4: Chromatic Finger Exercise”" [ref=e124] [cursor=pointer]':
+                - /url: "#exercise-4-chromatic-finger-exercise"
+                - img [ref=e126]
+                - generic [ref=e128]: "Section titled “Exercise 4: Chromatic Finger Exercise”"
+            - paragraph [ref=e129]: This exercise trains finger independence using all four fingers on each string.
+            - heading "Chromatic Exercise on 3rd String" [level=3] [ref=e132]
+            - paragraph [ref=e134]:
+              - strong [ref=e135]: "Practice:"
+              - text: Use one finger per fret - index (1), middle (2), ring (3), pinky (4).
+            - separator [ref=e136]
+            - generic [ref=e137]:
+              - 'heading "Exercise 5: Arpeggio Study in C" [level=2] [ref=e138]'
+              - 'link "Section titled “Exercise 5: Arpeggio Study in C”" [ref=e139] [cursor=pointer]':
+                - /url: "#exercise-5-arpeggio-study-in-c"
+                - img [ref=e141]
+                - generic [ref=e143]: "Section titled “Exercise 5: Arpeggio Study in C”"
+            - paragraph [ref=e144]: Broken chords (arpeggios) are essential for classical and fingerstyle guitar.
+            - heading "C Major Arpeggio Patterns" [level=3] [ref=e147]
+            - separator [ref=e149]
+            - generic [ref=e150]:
+              - 'heading "Exercise 6: Full First Position Etude" [level=2] [ref=e151]'
+              - 'link "Section titled “Exercise 6: Full First Position Etude”" [ref=e152] [cursor=pointer]':
+                - /url: "#exercise-6-full-first-position-etude"
+                - img [ref=e154]
+                - generic [ref=e156]: "Section titled “Exercise 6: Full First Position Etude”"
+            - paragraph [ref=e157]: This etude combines scale fragments, arpeggios, and melodic patterns using only first position.
+            - heading "Etude No. 1 in C Major" [level=3] [ref=e160]
+            - paragraph [ref=e162]:
+              - strong [ref=e163]: "Instructions:"
+            - list [ref=e164]:
+              - listitem [ref=e165]: Start slowly (♩ = 60 bpm), gradually increase to ♩ = 100
+              - listitem [ref=e166]: "Use strict alternating fingering: i-m-i-m for scales"
+              - listitem [ref=e167]: Focus on clean string transitions
+              - listitem [ref=e168]: Let all notes ring clearly without buzzing
+            - separator [ref=e169]
+            - generic [ref=e170]:
+              - heading "Practice Tips" [level=2] [ref=e171]
+              - link "Section titled “Practice Tips”" [ref=e172] [cursor=pointer]:
+                - /url: "#practice-tips"
+                - img [ref=e174]
+                - generic [ref=e176]: Section titled “Practice Tips”
+            - list [ref=e177]:
+              - listitem [ref=e178]:
+                - paragraph [ref=e179]:
+                  - strong [ref=e180]: "Posture:"
+                  - text: Sit with the guitar on your left leg (classical position) or right leg (casual). Keep your back straight.
+              - listitem [ref=e181]:
+                - paragraph [ref=e182]:
+                  - strong [ref=e183]: "Left Hand:"
+                  - text: Keep fingers curved, fingertips pressing down just behind the frets. Thumb should be positioned behind the neck, roughly opposite the middle finger.
+              - listitem [ref=e184]:
+                - paragraph [ref=e185]:
+                  - strong [ref=e186]: "Right Hand:"
+                  - text: For these exercises, use free stroke ( Tirando ) for a lighter sound, or rest stroke ( Apoyando ) for a fuller, more pronounced tone.
+              - listitem [ref=e187]:
+                - paragraph [ref=e188]:
+                  - strong [ref=e189]: "Timing:"
+                  - text: Practice with a metronome. Speed will come naturally from accuracy.
+              - listitem [ref=e190]:
+                - paragraph [ref=e191]:
+                  - strong [ref=e192]: "Daily Routine:"
+                  - text: Spend 5-10 minutes on these exercises as part of your warm-up.
+            - separator [ref=e193]
+            - generic [ref=e194]:
+              - heading "Next Steps" [level=2] [ref=e195]
+              - link "Section titled “Next Steps”" [ref=e196] [cursor=pointer]:
+                - /url: "#next-steps"
+                - img [ref=e198]
+                - generic [ref=e200]: Section titled “Next Steps”
+            - paragraph [ref=e201]: "Once these etudes feel comfortable:"
+            - list [ref=e202]:
+              - listitem [ref=e203]: Learn the G major scale (introduces F# on the 1st string, 2nd fret)
+              - listitem [ref=e204]: Practice position shifts to 2nd and 3rd position
+              - listitem [ref=e205]: Explore simple chord progressions using these notes
+            - paragraph [ref=e206]:
+              - emphasis [ref=e207]: “Slow practice is fast progress.”
+              - text: — Classical Guitar Wisdom
+          - link "Previous Intervals" [ref=e210] [cursor=pointer]:
+            - /url: /guitar-moves/intervals/
+            - img [ref=e211]
+            - generic [ref=e213]:
+              - text: Previous
+              - text: Intervals

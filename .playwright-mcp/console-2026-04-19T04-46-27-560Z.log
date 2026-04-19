@@ -1,0 +1,45 @@
+[     680ms] [LOG] Debug msg: clef=tablature @ https://wilsonnet.github.io/guitar-moves/_astro/SheetMusic.CpEyPTih.js:35
+[     693ms] [LOG] Debug msg: clef=tablature @ https://wilsonnet.github.io/guitar-moves/_astro/SheetMusic.CpEyPTih.js:35
+[     696ms] [LOG] Debug msg: clef=tablature @ https://wilsonnet.github.io/guitar-moves/_astro/SheetMusic.CpEyPTih.js:35
+[     699ms] [LOG] Debug msg: clef=tablature @ https://wilsonnet.github.io/guitar-moves/_astro/SheetMusic.CpEyPTih.js:35
+[     719ms] [LOG] Debug msg: clef=tablature @ https://wilsonnet.github.io/guitar-moves/_astro/SheetMusic.CpEyPTih.js:35
+[     723ms] [LOG] Debug msg: clef=tablature @ https://wilsonnet.github.io/guitar-moves/_astro/SheetMusic.CpEyPTih.js:35
+[     727ms] [LOG] Debug msg: clef=tablature @ https://wilsonnet.github.io/guitar-moves/_astro/SheetMusic.CpEyPTih.js:35
+[     731ms] [LOG] Debug msg: clef=tablature @ https://wilsonnet.github.io/guitar-moves/_astro/SheetMusic.CpEyPTih.js:35
+[     735ms] TypeError: Ii.synth.SynthObjectController is not a constructor
+    at https://wilsonnet.github.io/guitar-moves/_astro/SheetMusic.CpEyPTih.js:135:371
+    at $u (https://wilsonnet.github.io/guitar-moves/_astro/client.mxV3x1Xx.js:8:92398)
+    at Wy (https://wilsonnet.github.io/guitar-moves/_astro/client.mxV3x1Xx.js:8:107598)
+    at it (https://wilsonnet.github.io/guitar-moves/_astro/client.mxV3x1Xx.js:8:107482)
+    at Wy (https://wilsonnet.github.io/guitar-moves/_astro/client.mxV3x1Xx.js:8:107644)
+    at sv (https://wilsonnet.github.io/guitar-moves/_astro/client.mxV3x1Xx.js:8:120585)
+    at bn (https://wilsonnet.github.io/guitar-moves/_astro/client.mxV3x1Xx.js:8:120365)
+    at Tv (https://wilsonnet.github.io/guitar-moves/_astro/client.mxV3x1Xx.js:8:123711)
+    at MessagePort.Ya (https://wilsonnet.github.io/guitar-moves/_astro/client.mxV3x1Xx.js:1:1735)
+[     740ms] [LOG] Debug msg: clef=tablature @ https://wilsonnet.github.io/guitar-moves/_astro/SheetMusic.CpEyPTih.js:35
+[     743ms] [LOG] Debug msg: clef=tablature @ https://wilsonnet.github.io/guitar-moves/_astro/SheetMusic.CpEyPTih.js:35
+[     754ms] [LOG] Debug msg: clef=tablature @ https://wilsonnet.github.io/guitar-moves/_astro/SheetMusic.CpEyPTih.js:35
+[     758ms] [LOG] Debug msg: clef=tablature @ https://wilsonnet.github.io/guitar-moves/_astro/SheetMusic.CpEyPTih.js:35
+[     775ms] [LOG] Debug msg: clef=tablature @ https://wilsonnet.github.io/guitar-moves/_astro/SheetMusic.CpEyPTih.js:35
+[   43646ms] [LOG] Debug msg: clef=tablature @ https://wilsonnet.github.io/guitar-moves/_astro/SheetMusic.CpEyPTih.js:35
+[   43664ms] [LOG] Debug msg: clef=tablature @ https://wilsonnet.github.io/guitar-moves/_astro/SheetMusic.CpEyPTih.js:35
+[   43670ms] [LOG] Debug msg: clef=tablature @ https://wilsonnet.github.io/guitar-moves/_astro/SheetMusic.CpEyPTih.js:35
+[   43686ms] [LOG] Debug msg: clef=tablature @ https://wilsonnet.github.io/guitar-moves/_astro/SheetMusic.CpEyPTih.js:35
+[   43689ms] [LOG] Debug msg: clef=tablature @ https://wilsonnet.github.io/guitar-moves/_astro/SheetMusic.CpEyPTih.js:35
+[   43693ms] [LOG] Debug msg: clef=tablature @ https://wilsonnet.github.io/guitar-moves/_astro/SheetMusic.CpEyPTih.js:35
+[   43707ms] [LOG] Debug msg: clef=tablature @ https://wilsonnet.github.io/guitar-moves/_astro/SheetMusic.CpEyPTih.js:35
+[   43711ms] [LOG] Debug msg: clef=tablature @ https://wilsonnet.github.io/guitar-moves/_astro/SheetMusic.CpEyPTih.js:35
+[   43726ms] [LOG] Debug msg: clef=tablature @ https://wilsonnet.github.io/guitar-moves/_astro/SheetMusic.CpEyPTih.js:35
+[   43747ms] [LOG] Debug msg: clef=tablature @ https://wilsonnet.github.io/guitar-moves/_astro/SheetMusic.CpEyPTih.js:35
+[   43751ms] [LOG] Debug msg: clef=tablature @ https://wilsonnet.github.io/guitar-moves/_astro/SheetMusic.CpEyPTih.js:35
+[   43757ms] [LOG] Debug msg: clef=tablature @ https://wilsonnet.github.io/guitar-moves/_astro/SheetMusic.CpEyPTih.js:35
+[   43761ms] [LOG] Debug msg: clef=tablature @ https://wilsonnet.github.io/guitar-moves/_astro/SheetMusic.CpEyPTih.js:35
+[   43765ms] TypeError: Ii.synth.SynthObjectController is not a constructor
+    at https://wilsonnet.github.io/guitar-moves/_astro/SheetMusic.CpEyPTih.js:135:371
+    at $u (https://wilsonnet.github.io/guitar-moves/_astro/client.mxV3x1Xx.js:8:92398)
+    at Wy (https://wilsonnet.github.io/guitar-moves/_astro/client.mxV3x1Xx.js:8:107598)
+    at it (https://wilsonnet.github.io/guitar-moves/_astro/client.mxV3x1Xx.js:8:107482)
+    at Wy (https://wilsonnet.github.io/guitar-moves/_astro/client.mxV3x1Xx.js:8:107644)
+    at sv (https://wilsonnet.github.io/guitar-moves/_astro/client.mxV3x1Xx.js:8:120585)
+    at https://wilsonnet.github.io/guitar-moves/_astro/client.mxV3x1Xx.js:8:117968
+    at MessagePort.Ya (https://wilsonnet.github.io/guitar-moves/_astro/client.mxV3x1Xx.js:1:1735)

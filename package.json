@@ -16,7 +16,8 @@
     "astro": "^6.0.1",
     "react": "^19.2.5",
     "react-dom": "^19.2.5",
-    "sharp": "^0.34.2"
+    "sharp": "^0.34.2",
+    "vexflow": "^5.0.0"
   },
   "devDependencies": {
     "@astrojs/check": "^0.9.8",

@@ -1,0 +1,401 @@
+[     139ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:20102
+[     175ms] NotFoundError: Failed to execute 'removeChild' on 'Node': The node to be removed is not a child of this node.
+    at removeChild (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:15918:24)
+    at runWithFiberInDEV (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:997:72)
+    at commitDeletionEffectsOnFiber (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10190:19)
+    at recursivelyTraverseMutationEffects (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10379:13)
+    at commitMutationEffectsOnFiber (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10547:13)
+    at recursivelyTraverseMutationEffects (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10396:13)
+    at commitMutationEffectsOnFiber (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10547:13)
+    at recursivelyTraverseMutationEffects (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10396:13)
+    at commitMutationEffectsOnFiber (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10405:13)
+    at recursivelyTraverseMutationEffects (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10396:13)
+[     159ms] [WARNING] %s
+
+%s
+ An error occurred in the <span> component. Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries. @ http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:6965
+[     161ms] [ERROR] VexFlow rendering error: RuntimeError: [RuntimeError] BadArgument: Too many ticks.
+    at Voice.addTickable (http://localhost:4327/node_modules/.vite/deps/vexflow.js?v=38e952cc:11116:15)
+    at Voice.addTickables (http://localhost:4327/node_modules/.vite/deps/vexflow.js?v=38e952cc:11130:12)
+    at EasyScore.voice (http://localhost:4327/node_modules/.vite/deps/vexflow.js?v=38e952cc:9731:40)
+    at http://localhost:4327/src/components/SheetMusic.tsx:50:24
+    at Object.react_stack_bottom_frame (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:18567:20)
+    at runWithFiberInDEV (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:997:72)
+    at commitHookEffectListMount (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:9411:163)
+    at commitHookPassiveMountEffects (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:9465:60)
+    at commitPassiveMountOnFiber (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:11040:29)
+    at recursivelyTraversePassiveMountEffects (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:11010:13) @ http://localhost:4327/src/components/SheetMusic.tsx:64
+[     176ms] NotFoundError: Failed to execute 'removeChild' on 'Node': The node to be removed is not a child of this node.
+    at removeChild (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:15918:24)
+    at runWithFiberInDEV (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:997:72)
+    at commitDeletionEffectsOnFiber (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10190:19)
+    at recursivelyTraverseMutationEffects (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10379:13)
+    at commitMutationEffectsOnFiber (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10547:13)
+    at recursivelyTraverseMutationEffects (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10396:13)
+    at commitMutationEffectsOnFiber (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10547:13)
+    at recursivelyTraverseMutationEffects (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10396:13)
+    at commitMutationEffectsOnFiber (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10405:13)
+    at recursivelyTraverseMutationEffects (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10396:13)
+[     161ms] [WARNING] %s
+
+%s
+ An error occurred in the <span> component. Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries. @ http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:6965
+[     165ms] [ERROR] VexFlow rendering error: RuntimeError: [RuntimeError] BadArgument: Too many ticks.
+    at Voice.addTickable (http://localhost:4327/node_modules/.vite/deps/vexflow.js?v=38e952cc:11116:15)
+    at Voice.addTickables (http://localhost:4327/node_modules/.vite/deps/vexflow.js?v=38e952cc:11130:12)
+    at EasyScore.voice (http://localhost:4327/node_modules/.vite/deps/vexflow.js?v=38e952cc:9731:40)
+    at http://localhost:4327/src/components/SheetMusic.tsx:50:24
+    at Object.react_stack_bottom_frame (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:18567:20)
+    at runWithFiberInDEV (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:997:72)
+    at commitHookEffectListMount (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:9411:163)
+    at commitHookPassiveMountEffects (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:9465:60)
+    at commitPassiveMountOnFiber (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:11040:29)
+    at recursivelyTraversePassiveMountEffects (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:11010:13) @ http://localhost:4327/src/components/SheetMusic.tsx:64
+[     178ms] NotFoundError: Failed to execute 'removeChild' on 'Node': The node to be removed is not a child of this node.
+    at removeChild (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:15918:24)
+    at runWithFiberInDEV (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:997:72)
+    at commitDeletionEffectsOnFiber (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10190:19)
+    at recursivelyTraverseMutationEffects (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10379:13)
+    at commitMutationEffectsOnFiber (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10547:13)
+    at recursivelyTraverseMutationEffects (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10396:13)
+    at commitMutationEffectsOnFiber (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10547:13)
+    at recursivelyTraverseMutationEffects (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10396:13)
+    at commitMutationEffectsOnFiber (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10405:13)
+    at recursivelyTraverseMutationEffects (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10396:13)
+[     166ms] [WARNING] %s
+
+%s
+ An error occurred in the <span> component. Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries. @ http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:6965
+[     169ms] [ERROR] VexFlow rendering error: RuntimeError: [RuntimeError] BadArgument: Too many ticks.
+    at Voice.addTickable (http://localhost:4327/node_modules/.vite/deps/vexflow.js?v=38e952cc:11116:15)
+    at Voice.addTickables (http://localhost:4327/node_modules/.vite/deps/vexflow.js?v=38e952cc:11130:12)
+    at EasyScore.voice (http://localhost:4327/node_modules/.vite/deps/vexflow.js?v=38e952cc:9731:40)
+    at http://localhost:4327/src/components/SheetMusic.tsx:50:24
+    at Object.react_stack_bottom_frame (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:18567:20)
+    at runWithFiberInDEV (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:997:72)
+    at commitHookEffectListMount (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:9411:163)
+    at commitHookPassiveMountEffects (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:9465:60)
+    at commitPassiveMountOnFiber (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:11040:29)
+    at recursivelyTraversePassiveMountEffects (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:11010:13) @ http://localhost:4327/src/components/SheetMusic.tsx:64
+[     179ms] NotFoundError: Failed to execute 'removeChild' on 'Node': The node to be removed is not a child of this node.
+    at removeChild (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:15918:24)
+    at runWithFiberInDEV (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:997:72)
+    at commitDeletionEffectsOnFiber (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10190:19)
+    at recursivelyTraverseMutationEffects (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10379:13)
+    at commitMutationEffectsOnFiber (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10547:13)
+    at recursivelyTraverseMutationEffects (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10396:13)
+    at commitMutationEffectsOnFiber (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10547:13)
+    at recursivelyTraverseMutationEffects (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10396:13)
+    at commitMutationEffectsOnFiber (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10405:13)
+    at recursivelyTraverseMutationEffects (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10396:13)
+[     169ms] [WARNING] %s
+
+%s
+ An error occurred in the <span> component. Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries. @ http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:6965
+[     180ms] NotFoundError: Failed to execute 'removeChild' on 'Node': The node to be removed is not a child of this node.
+    at removeChild (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:15918:24)
+    at runWithFiberInDEV (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:997:72)
+    at commitDeletionEffectsOnFiber (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10190:19)
+    at recursivelyTraverseMutationEffects (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10379:13)
+    at commitMutationEffectsOnFiber (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10547:13)
+    at recursivelyTraverseMutationEffects (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10396:13)
+    at commitMutationEffectsOnFiber (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10547:13)
+    at recursivelyTraverseMutationEffects (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10396:13)
+    at commitMutationEffectsOnFiber (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10405:13)
+    at recursivelyTraverseMutationEffects (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10396:13)
+[     179ms] [WARNING] %s
+
+%s
+ An error occurred in the <span> component. Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries. @ http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:6965
+[     208ms] [ERROR] VexFlow rendering error: RuntimeError: [RuntimeError] BadArgument: Too many ticks.
+    at Voice.addTickable (http://localhost:4327/node_modules/.vite/deps/vexflow.js?v=38e952cc:11116:15)
+    at Voice.addTickables (http://localhost:4327/node_modules/.vite/deps/vexflow.js?v=38e952cc:11130:12)
+    at EasyScore.voice (http://localhost:4327/node_modules/.vite/deps/vexflow.js?v=38e952cc:9731:40)
+    at http://localhost:4327/src/components/SheetMusic.tsx:50:24
+    at Object.react_stack_bottom_frame (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:18567:20)
+    at runWithFiberInDEV (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:997:72)
+    at commitHookEffectListMount (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:9411:163)
+    at commitHookPassiveMountEffects (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:9465:60)
+    at commitPassiveMountOnFiber (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:11040:29)
+    at recursivelyTraversePassiveMountEffects (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:11010:13) @ http://localhost:4327/src/components/SheetMusic.tsx:64
+[     209ms] NotFoundError: Failed to execute 'removeChild' on 'Node': The node to be removed is not a child of this node.
+    at removeChild (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:15918:24)
+    at runWithFiberInDEV (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:997:72)
+    at commitDeletionEffectsOnFiber (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10190:19)
+    at recursivelyTraverseMutationEffects (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10379:13)
+    at commitMutationEffectsOnFiber (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10547:13)
+    at recursivelyTraverseMutationEffects (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10396:13)
+    at commitMutationEffectsOnFiber (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10547:13)
+    at recursivelyTraverseMutationEffects (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10396:13)
+    at commitMutationEffectsOnFiber (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10405:13)
+    at recursivelyTraverseMutationEffects (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10396:13)
+[     209ms] [WARNING] %s
+
+%s
+ An error occurred in the <span> component. Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries. @ http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:6965
+[   42118ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:20102
+[   42183ms] [ERROR] VexFlow rendering error: RuntimeError: [RuntimeError] IncompleteVoice: Voice does not have enough notes.
+    at http://localhost:4327/node_modules/.vite/deps/vexflow.js?v=38e952cc:14398:15
+    at Array.reduce (<anonymous>)
+    at _Formatter.getResolutionMultiplier (http://localhost:4327/node_modules/.vite/deps/vexflow.js?v=38e952cc:14393:41)
+    at _Formatter.createModifierContexts (http://localhost:4327/node_modules/.vite/deps/vexflow.js?v=38e952cc:14407:45)
+    at _Formatter.joinVoices (http://localhost:4327/node_modules/.vite/deps/vexflow.js?v=38e952cc:14712:10)
+    at System.format (http://localhost:4327/node_modules/.vite/deps/vexflow.js?v=38e952cc:15554:15)
+    at http://localhost:4327/node_modules/.vite/deps/vexflow.js?v=38e952cc:16725:51
+    at Array.forEach (<anonymous>)
+    at _Factory.draw (http://localhost:4327/node_modules/.vite/deps/vexflow.js?v=38e952cc:16725:18)
+    at http://localhost:4327/src/components/SheetMusic.tsx:52:10 @ http://localhost:4327/src/components/SheetMusic.tsx:64
+[   42184ms] NotFoundError: Failed to execute 'removeChild' on 'Node': The node to be removed is not a child of this node.
+    at removeChild (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:15918:24)
+    at runWithFiberInDEV (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:997:72)
+    at commitDeletionEffectsOnFiber (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10190:19)
+    at recursivelyTraverseMutationEffects (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10379:13)
+    at commitMutationEffectsOnFiber (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10547:13)
+    at recursivelyTraverseMutationEffects (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10396:13)
+    at commitMutationEffectsOnFiber (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10547:13)
+    at recursivelyTraverseMutationEffects (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10396:13)
+    at commitMutationEffectsOnFiber (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10405:13)
+    at recursivelyTraverseMutationEffects (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10396:13)
+[   42183ms] [WARNING] %s
+
+%s
+ An error occurred in the <span> component. Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries. @ http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:6965
+[   42189ms] [ERROR] VexFlow rendering error: RuntimeError: [RuntimeError] BadArgument: Too many ticks.
+    at Voice.addTickable (http://localhost:4327/node_modules/.vite/deps/vexflow.js?v=38e952cc:11116:15)
+    at Voice.addTickables (http://localhost:4327/node_modules/.vite/deps/vexflow.js?v=38e952cc:11130:12)
+    at EasyScore.voice (http://localhost:4327/node_modules/.vite/deps/vexflow.js?v=38e952cc:9731:40)
+    at http://localhost:4327/src/components/SheetMusic.tsx:50:24
+    at Object.react_stack_bottom_frame (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:18567:20)
+    at runWithFiberInDEV (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:997:72)
+    at commitHookEffectListMount (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:9411:163)
+    at commitHookPassiveMountEffects (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:9465:60)
+    at commitPassiveMountOnFiber (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:11040:29)
+    at recursivelyTraversePassiveMountEffects (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:11010:13) @ http://localhost:4327/src/components/SheetMusic.tsx:64
+[   42190ms] NotFoundError: Failed to execute 'removeChild' on 'Node': The node to be removed is not a child of this node.
+    at removeChild (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:15918:24)
+    at runWithFiberInDEV (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:997:72)
+    at commitDeletionEffectsOnFiber (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10190:19)
+    at recursivelyTraverseMutationEffects (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10379:13)
+    at commitMutationEffectsOnFiber (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10547:13)
+    at recursivelyTraverseMutationEffects (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10396:13)
+    at commitMutationEffectsOnFiber (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10547:13)
+    at recursivelyTraverseMutationEffects (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10396:13)
+    at commitMutationEffectsOnFiber (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10405:13)
+    at recursivelyTraverseMutationEffects (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10396:13)
+[   42190ms] [WARNING] %s
+
+%s
+ An error occurred in the <span> component. Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries. @ http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:6965
+[   42198ms] NotFoundError: Failed to execute 'removeChild' on 'Node': The node to be removed is not a child of this node.
+    at removeChild (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:15918:24)
+    at runWithFiberInDEV (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:997:72)
+    at commitDeletionEffectsOnFiber (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10190:19)
+    at recursivelyTraverseMutationEffects (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10379:13)
+    at commitMutationEffectsOnFiber (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10547:13)
+    at recursivelyTraverseMutationEffects (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10396:13)
+    at commitMutationEffectsOnFiber (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10547:13)
+    at recursivelyTraverseMutationEffects (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10396:13)
+    at commitMutationEffectsOnFiber (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10405:13)
+    at recursivelyTraverseMutationEffects (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10396:13)
+[   42198ms] [WARNING] %s
+
+%s
+ An error occurred in the <span> component. Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries. @ http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:6965
+[   42205ms] NotFoundError: Failed to execute 'removeChild' on 'Node': The node to be removed is not a child of this node.
+    at removeChild (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:15918:24)
+    at runWithFiberInDEV (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:997:72)
+    at commitDeletionEffectsOnFiber (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10190:19)
+    at recursivelyTraverseMutationEffects (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10379:13)
+    at commitMutationEffectsOnFiber (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10547:13)
+    at recursivelyTraverseMutationEffects (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10396:13)
+    at commitMutationEffectsOnFiber (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10547:13)
+    at recursivelyTraverseMutationEffects (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10396:13)
+    at commitMutationEffectsOnFiber (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10405:13)
+    at recursivelyTraverseMutationEffects (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10396:13)
+[   42204ms] [WARNING] %s
+
+%s
+ An error occurred in the <span> component. Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries. @ http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:6965
+[   42206ms] [ERROR] VexFlow rendering error: RuntimeError: [RuntimeError] BadArgument: Too many ticks.
+    at Voice.addTickable (http://localhost:4327/node_modules/.vite/deps/vexflow.js?v=38e952cc:11116:15)
+    at Voice.addTickables (http://localhost:4327/node_modules/.vite/deps/vexflow.js?v=38e952cc:11130:12)
+    at EasyScore.voice (http://localhost:4327/node_modules/.vite/deps/vexflow.js?v=38e952cc:9731:40)
+    at http://localhost:4327/src/components/SheetMusic.tsx:50:24
+    at Object.react_stack_bottom_frame (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:18567:20)
+    at runWithFiberInDEV (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:997:72)
+    at commitHookEffectListMount (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:9411:163)
+    at commitHookPassiveMountEffects (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:9465:60)
+    at commitPassiveMountOnFiber (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:11040:29)
+    at recursivelyTraversePassiveMountEffects (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:11010:13) @ http://localhost:4327/src/components/SheetMusic.tsx:64
+[   42208ms] NotFoundError: Failed to execute 'removeChild' on 'Node': The node to be removed is not a child of this node.
+    at removeChild (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:15918:24)
+    at runWithFiberInDEV (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:997:72)
+    at commitDeletionEffectsOnFiber (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10190:19)
+    at recursivelyTraverseMutationEffects (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10379:13)
+    at commitMutationEffectsOnFiber (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10547:13)
+    at recursivelyTraverseMutationEffects (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10396:13)
+    at commitMutationEffectsOnFiber (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10547:13)
+    at recursivelyTraverseMutationEffects (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10396:13)
+    at commitMutationEffectsOnFiber (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10405:13)
+    at recursivelyTraverseMutationEffects (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10396:13)
+[   42208ms] [WARNING] %s
+
+%s
+ An error occurred in the <span> component. Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries. @ http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:6965
+[   42220ms] NotFoundError: Failed to execute 'removeChild' on 'Node': The node to be removed is not a child of this node.
+    at removeChild (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:15918:24)
+    at runWithFiberInDEV (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:997:72)
+    at commitDeletionEffectsOnFiber (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10190:19)
+    at recursivelyTraverseMutationEffects (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10379:13)
+    at commitMutationEffectsOnFiber (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10547:13)
+    at recursivelyTraverseMutationEffects (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10396:13)
+    at commitMutationEffectsOnFiber (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10547:13)
+    at recursivelyTraverseMutationEffects (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10396:13)
+    at commitMutationEffectsOnFiber (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10405:13)
+    at recursivelyTraverseMutationEffects (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10396:13)
+[   42220ms] [WARNING] %s
+
+%s
+ An error occurred in the <span> component. Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries. @ http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:6965
+[   42514ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:20102
+[   42527ms] [ERROR] VexFlow rendering error: RuntimeError: [RuntimeError] BadArgument: Too many ticks.
+    at Voice.addTickable (http://localhost:4327/node_modules/.vite/deps/vexflow.js?v=38e952cc:11116:15)
+    at Voice.addTickables (http://localhost:4327/node_modules/.vite/deps/vexflow.js?v=38e952cc:11130:12)
+    at EasyScore.voice (http://localhost:4327/node_modules/.vite/deps/vexflow.js?v=38e952cc:9731:40)
+    at http://localhost:4327/src/components/SheetMusic.tsx:50:24
+    at Object.react_stack_bottom_frame (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:18567:20)
+    at runWithFiberInDEV (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:997:72)
+    at commitHookEffectListMount (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:9411:163)
+    at commitHookPassiveMountEffects (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:9465:60)
+    at commitPassiveMountOnFiber (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:11040:29)
+    at recursivelyTraversePassiveMountEffects (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:11010:13) @ http://localhost:4327/src/components/SheetMusic.tsx:64
+[   42548ms] NotFoundError: Failed to execute 'removeChild' on 'Node': The node to be removed is not a child of this node.
+    at removeChild (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:15918:24)
+    at runWithFiberInDEV (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:997:72)
+    at commitDeletionEffectsOnFiber (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10190:19)
+    at recursivelyTraverseMutationEffects (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10379:13)
+    at commitMutationEffectsOnFiber (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10547:13)
+    at recursivelyTraverseMutationEffects (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10396:13)
+    at commitMutationEffectsOnFiber (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10547:13)
+    at recursivelyTraverseMutationEffects (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10396:13)
+    at commitMutationEffectsOnFiber (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10405:13)
+    at recursivelyTraverseMutationEffects (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10396:13)
+[   42528ms] [WARNING] %s
+
+%s
+ An error occurred in the <span> component. Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries. @ http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:6965
+[   42549ms] NotFoundError: Failed to execute 'removeChild' on 'Node': The node to be removed is not a child of this node.
+    at removeChild (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:15918:24)
+    at runWithFiberInDEV (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:997:72)
+    at commitDeletionEffectsOnFiber (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10190:19)
+    at recursivelyTraverseMutationEffects (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10379:13)
+    at commitMutationEffectsOnFiber (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10547:13)
+    at recursivelyTraverseMutationEffects (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10396:13)
+    at commitMutationEffectsOnFiber (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10547:13)
+    at recursivelyTraverseMutationEffects (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10396:13)
+    at commitMutationEffectsOnFiber (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10405:13)
+    at recursivelyTraverseMutationEffects (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10396:13)
+[   42534ms] [WARNING] %s
+
+%s
+ An error occurred in the <span> component. Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries. @ http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:6965
+[   42536ms] [ERROR] VexFlow rendering error: RuntimeError: [RuntimeError] IncompleteVoice: Voice does not have enough notes.
+    at http://localhost:4327/node_modules/.vite/deps/vexflow.js?v=38e952cc:14398:15
+    at Array.reduce (<anonymous>)
+    at _Formatter.getResolutionMultiplier (http://localhost:4327/node_modules/.vite/deps/vexflow.js?v=38e952cc:14393:41)
+    at _Formatter.createModifierContexts (http://localhost:4327/node_modules/.vite/deps/vexflow.js?v=38e952cc:14407:45)
+    at _Formatter.joinVoices (http://localhost:4327/node_modules/.vite/deps/vexflow.js?v=38e952cc:14712:10)
+    at System.format (http://localhost:4327/node_modules/.vite/deps/vexflow.js?v=38e952cc:15554:15)
+    at http://localhost:4327/node_modules/.vite/deps/vexflow.js?v=38e952cc:16725:51
+    at Array.forEach (<anonymous>)
+    at _Factory.draw (http://localhost:4327/node_modules/.vite/deps/vexflow.js?v=38e952cc:16725:18)
+    at http://localhost:4327/src/components/SheetMusic.tsx:52:10 @ http://localhost:4327/src/components/SheetMusic.tsx:64
+[   42550ms] NotFoundError: Failed to execute 'removeChild' on 'Node': The node to be removed is not a child of this node.
+    at removeChild (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:15918:24)
+    at runWithFiberInDEV (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:997:72)
+    at commitDeletionEffectsOnFiber (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10190:19)
+    at recursivelyTraverseMutationEffects (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10379:13)
+    at commitMutationEffectsOnFiber (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10547:13)
+    at recursivelyTraverseMutationEffects (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10396:13)
+    at commitMutationEffectsOnFiber (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10547:13)
+    at recursivelyTraverseMutationEffects (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10396:13)
+    at commitMutationEffectsOnFiber (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10405:13)
+    at recursivelyTraverseMutationEffects (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10396:13)
+[   42538ms] [WARNING] %s
+
+%s
+ An error occurred in the <span> component. Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries. @ http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:6965
+[   42551ms] NotFoundError: Failed to execute 'removeChild' on 'Node': The node to be removed is not a child of this node.
+    at removeChild (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:15918:24)
+    at runWithFiberInDEV (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:997:72)
+    at commitDeletionEffectsOnFiber (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10190:19)
+    at recursivelyTraverseMutationEffects (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10379:13)
+    at commitMutationEffectsOnFiber (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10547:13)
+    at recursivelyTraverseMutationEffects (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10396:13)
+    at commitMutationEffectsOnFiber (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10547:13)
+    at recursivelyTraverseMutationEffects (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10396:13)
+    at commitMutationEffectsOnFiber (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10405:13)
+    at recursivelyTraverseMutationEffects (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10396:13)
+[   42549ms] [WARNING] %s
+
+%s
+ An error occurred in the <span> component. Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries. @ http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:6965
+[   42555ms] [ERROR] VexFlow rendering error: RuntimeError: [RuntimeError] BadArgument: Too many ticks.
+    at Voice.addTickable (http://localhost:4327/node_modules/.vite/deps/vexflow.js?v=38e952cc:11116:15)
+    at Voice.addTickables (http://localhost:4327/node_modules/.vite/deps/vexflow.js?v=38e952cc:11130:12)
+    at EasyScore.voice (http://localhost:4327/node_modules/.vite/deps/vexflow.js?v=38e952cc:9731:40)
+    at http://localhost:4327/src/components/SheetMusic.tsx:50:24
+    at Object.react_stack_bottom_frame (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:18567:20)
+    at runWithFiberInDEV (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:997:72)
+    at commitHookEffectListMount (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:9411:163)
+    at commitHookPassiveMountEffects (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:9465:60)
+    at commitPassiveMountOnFiber (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:11040:29)
+    at recursivelyTraversePassiveMountEffects (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:11010:13) @ http://localhost:4327/src/components/SheetMusic.tsx:64
+[   42557ms] NotFoundError: Failed to execute 'removeChild' on 'Node': The node to be removed is not a child of this node.
+    at removeChild (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:15918:24)
+    at runWithFiberInDEV (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:997:72)
+    at commitDeletionEffectsOnFiber (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10190:19)
+    at recursivelyTraverseMutationEffects (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10379:13)
+    at commitMutationEffectsOnFiber (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10547:13)
+    at recursivelyTraverseMutationEffects (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10396:13)
+    at commitMutationEffectsOnFiber (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10547:13)
+    at recursivelyTraverseMutationEffects (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10396:13)
+    at commitMutationEffectsOnFiber (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10405:13)
+    at recursivelyTraverseMutationEffects (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10396:13)
+[   42556ms] [WARNING] %s
+
+%s
+ An error occurred in the <span> component. Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries. @ http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:6965
+[   42565ms] NotFoundError: Failed to execute 'removeChild' on 'Node': The node to be removed is not a child of this node.
+    at removeChild (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:15918:24)
+    at runWithFiberInDEV (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:997:72)
+    at commitDeletionEffectsOnFiber (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10190:19)
+    at recursivelyTraverseMutationEffects (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10379:13)
+    at commitMutationEffectsOnFiber (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10547:13)
+    at recursivelyTraverseMutationEffects (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10396:13)
+    at commitMutationEffectsOnFiber (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10547:13)
+    at recursivelyTraverseMutationEffects (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10396:13)
+    at commitMutationEffectsOnFiber (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10405:13)
+    at recursivelyTraverseMutationEffects (http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:10396:13)
+[   42564ms] [WARNING] %s
+
+%s
+ An error occurred in the <span> component. Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries. @ http://localhost:4327/node_modules/.vite/deps/chunk-LFCFDZPA.js?v=38e952cc:6965
