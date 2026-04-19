@@ -7,8 +7,6 @@ export interface SheetMusicProps {
   abc: string;
   /** Optional title override */
   title?: string;
-  /** Show guitar tablature staff below standard notation */
-  showTablature?: boolean;
   /** Responsive width - defaults to container width */
   width?: number;
   /** Visual theme: 'light' or 'dark' (defaults to match site) */
@@ -31,7 +29,6 @@ const THEME_COLORS = {
 export function SheetMusic({
   abc,
   title,
-  showTablature = true,
   width = 800,
   theme = 'dark',
 }: SheetMusicProps): React.ReactElement {
@@ -45,15 +42,8 @@ export function SheetMusic({
     // Clear previous render
     divRef.current.innerHTML = '';
 
-    // Prepare ABC with tablature if requested
-    let processedAbc = abc;
-    if (showTablature && !abc.includes('%%tablature')) {
-      // Add guitar tablature directive for standard tuning
-      processedAbc = `%%tablature {E2,A2,D3,G3,B3,e4}\n${abc}`;
-    }
-
     // Render the notation
-    abcjs.renderAbc(divRef.current, processedAbc, {
+    abcjs.renderAbc(divRef.current, abc, {
       staffwidth: width - 40,
       paddingtop: 15,
       paddingbottom: 15,
@@ -63,15 +53,6 @@ export function SheetMusic({
       scale: 1.2,
       add_classes: true,
       jazzchords: true,
-      ...(showTablature && {
-        tablature: [
-          {
-            instrument: 'guitar',
-            label: 'Guitar',
-            tuning: ['E,', 'A,', 'D', 'G', 'B', 'e'],
-          },
-        ],
-      }),
     });
 
     // Apply theme colors to SVG
@@ -79,7 +60,7 @@ export function SheetMusic({
     if (svg) {
       svg.style.color = colors.staff;
     }
-  }, [abc, showTablature, width, colors.staff]);
+  }, [abc, width, colors.staff]);
 
   return (
     <div
