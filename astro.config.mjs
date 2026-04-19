@@ -37,6 +37,12 @@ export default defineConfig({
 						{ label: 'Intervals', slug: 'intervals' },
 					],
 				},
+				{
+					label: 'Course',
+					items: [
+						{ label: 'First Position Etudes', slug: 'first-position-etudes' },
+					],
+				},
 			],
 		}),
 	],
